@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'http://192.168.16.108:3333'
+    baseURL: 'http://host-bethehero-kg.umbler.net:3000'
 })
 
 export default api;
